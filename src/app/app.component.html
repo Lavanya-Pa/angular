@@ -1,0 +1,32 @@
+<div id="userNav">
+
+
+    <nav class="navbar navbar-light bg-success mb-5">
+            <div class="navbar-expand mr-auto">
+              <div class="navbar-nav">
+                <a class="nav-item nav-link active" routerLink="danceacademy" href="#">Home</a>
+                <a class="nav-item nav-link"  routerLink="showbookings"  href="#">Show Bookings</a>
+                <a class="nav-item nav-link"  (click)="logout()" href="#">Logout</a>
+              </div>
+            </div>
+         </nav>
+      
+</div>
+
+<div id="adminNav">
+    
+
+    <nav class="navbar navbar-light bg-success mb-5">
+            <div class="navbar-expand mr-auto">
+              <div class="navbar-nav">
+                <a class="nav-item nav-link active" routerLink="add" href="#">Home</a>
+                <a class="nav-item nav-link"  routerLink="addchoreographer"  href="#">Add Choreographers</a>
+                <a class="nav-item nav-link"  routerLink="showchoreographer"  href="#">Show choreographers</a>
+                <a class="nav-item nav-link"  routerLink="allbookings"  href="#">Show All Bookings</a>
+                <a class="nav-item nav-link"  (click)="logout()" href="#">Logout</a>
+              </div>
+            </div>
+         </nav>
+</div>
+
+<router-outlet></router-outlet>
